@@ -37,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            75.,
+            75.verticalSpace,
             BText(
               text: "Login",
               size: 20.spMin,
