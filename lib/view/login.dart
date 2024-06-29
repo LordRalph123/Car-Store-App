@@ -54,12 +54,12 @@ class _LoginPageState extends State<LoginPage> {
               hintText: "Username",
               prefixIcon: Icons.person_outline_rounded,
             ),
-            SizedBox(height: 24.h),
+            24.verticalSpace,
             const CustomTextField(
               hintText: "Password",
               prefixIcon: Icons.lock,
             ),
-            SizedBox(height: 24.h),
+           24.verticalSpace,
             Text(
               "Forgot Password?",
               textAlign: TextAlign.center,
