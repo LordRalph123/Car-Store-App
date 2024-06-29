@@ -51,7 +51,7 @@ class _SalesPageState extends State<SalesPage> {
                   children: [
                     BoldText(
                         text: "Condition", size: 16.spMin, color: Colors.black),
-                    SizedBox(height: 12.h),
+                   12.verticalSpace,
                     RButtons()
                   ],
                 ),
