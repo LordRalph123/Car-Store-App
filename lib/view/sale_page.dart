@@ -41,7 +41,7 @@ class _SalesPageState extends State<SalesPage> {
           children: [
             BoldText(text: "Title", size: 16.spMin, color: Colors.black),
             CTextField(height: 40.h, hintText: "Enter title"),
-            SizedBox(height: 12.h),
+            12.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
