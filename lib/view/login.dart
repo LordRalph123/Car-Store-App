@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
               size: 20.spMin,
               color: Color(0XFF040415),
             ),
-            SizedBox(height: 4.spMin),
+            
             CText(
               text: "Welcome to CarStore",
               size: 14.spMin,
