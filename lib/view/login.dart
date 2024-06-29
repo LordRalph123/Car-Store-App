@@ -37,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            SizedBox(height: 75.h)
+            (height: 75.h)
             BText(
               text: "Login",
               size: 20.spMin,
