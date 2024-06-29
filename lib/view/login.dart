@@ -43,13 +43,13 @@ class _LoginPageState extends State<LoginPage> {
               size: 20.spMin,
               color: Color(0XFF040415),
             ),
-            
+            4.verticalSpace,
             CText(
               text: "Welcome to CarStore",
               size: 14.spMin,
               color: Color(0XFF000000),
             ),
-            SizedBox(height: 44.h),
+            44.verticalSpace,
             const CustomTextField(
               hintText: "Username",
               prefixIcon: Icons.person_outline_rounded,
