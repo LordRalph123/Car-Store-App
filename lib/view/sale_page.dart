@@ -52,7 +52,7 @@ class _SalesPageState extends State<SalesPage> {
                     BoldText(
                         text: "Condition", size: 16.spMin, color: Colors.black),
                    12.verticalSpace,
-                    RButtons()
+                   const RButtons()
                   ],
                 ),
                 Column(
