@@ -68,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
                   color: Color(0XFF040415),
                   fontWeight: FontWeight.w500),
             ),
-            SizedBox(height: 24.h),
+            24.verticalSpace,
             CustomButton(
               text: 'Login',
               onPressed: () {
@@ -77,8 +77,7 @@ class _LoginPageState extends State<LoginPage> {
                   MaterialPageRoute(builder: (context) => const HomeScreen()),
                 );
               },
-            ),
-            SizedBox(height: 45.h),
+            ),45.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -90,7 +89,7 @@ class _LoginPageState extends State<LoginPage> {
                     color: Color(0XFF040415),
                   ),
                 ),
-                SizedBox(width: 6.h),
+                6.horizontalSpace,
                 TextButton(
                   onPressed: () {
                     Navigator.pushReplacement(
