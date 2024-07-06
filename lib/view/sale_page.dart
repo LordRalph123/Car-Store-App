@@ -51,8 +51,8 @@ class _SalesPageState extends State<SalesPage> {
                   children: [
                     BoldText(
                         text: "Condition", size: 16.spMin, color: Colors.black),
-                   12.verticalSpace,
-                   const RButtons()
+                    12.verticalSpace,
+                    const RButtons()
                   ],
                 ),
                 Column(
@@ -69,7 +69,7 @@ class _SalesPageState extends State<SalesPage> {
                 )
               ],
             ),
-            SizedBox(height: 17.h),
+            17.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
