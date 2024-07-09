@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     hintText: "Location",
                     prefixIcon: const Icon(Icons.location_on_outlined),
                   ),
-                  const SizedBox(height: 45),
+                  45.verticalSpace,
                   BoldText(
                       text: "Price Range", size: 18.spMin, color: Colors.black),
                   SizedBox(height: 5.h),
@@ -73,9 +73,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     size: 12.spMin,
                     color: Color(0XFF8C9199),
                   ),
-                  SizedBox(height: 10.h),
-                  SizedBox(height: 45.h, child: SlideWidget()),
-                  SizedBox(height: 78.h),
+                  10.verticalSpace,
+                  SizedBox(height: 45.h, child: SlideWidget(),),
+                 78.verticalSpace,
                   Center(
                     child: Container(
                       width: 164.w,
