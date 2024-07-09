@@ -137,7 +137,7 @@ class _SalesPageState extends State<SalesPage> {
                 ),
               ],
             ),
-            
+            4.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
