@@ -171,7 +171,7 @@ class _SalesPageState extends State<SalesPage> {
                 )
               ],
             ),
-            
+            12.verticalSpace,
             BoldText(text: "Description", size: 16.spMin, color: Colors.black),
             Container(
               height: 75.h,
