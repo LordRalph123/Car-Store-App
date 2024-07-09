@@ -90,7 +90,7 @@ class _CarDetailsState extends State<CarDetails> {
                 ),
               ],
             ),
-            SizedBox(height: 13.h),
+            13.verticalSpace,
             LongTextWidget(
                 text:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam nam eu nulla a. Vestibulum aliquet facilisi interdum nibh blandit, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas diam nam eu nulla a. Vestibulum aliquet facilisi interdum nibh blandit"),
