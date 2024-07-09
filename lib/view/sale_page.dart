@@ -137,7 +137,7 @@ class _SalesPageState extends State<SalesPage> {
                 ),
               ],
             ),
-            SizedBox(height: 4.h),
+            
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
