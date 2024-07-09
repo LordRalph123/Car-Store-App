@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       )
                     ],
                   ),
-                  SizedBox(height: 29.h),
+                  29.verticalSpace,
                   CTextField(
                     height: 40.h,
                     hintText: "Location",
