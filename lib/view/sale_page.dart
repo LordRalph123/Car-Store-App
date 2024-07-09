@@ -164,7 +164,7 @@ class _SalesPageState extends State<SalesPage> {
                     BoldText(
                         text: "Price", size: 16.spMin, color: Colors.black),
                     SizedBox(
-                      width: 173,
+                      width: 173.w,
                       child: CTextField(height: 40.h, hintText: "Enter Price"),
                     ),
                   ],
