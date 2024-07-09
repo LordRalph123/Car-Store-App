@@ -149,7 +149,7 @@ class _SalesPageState extends State<SalesPage> {
                     BoldText(
                         text: "Location", size: 16.spMin, color: Colors.black),
                     SizedBox(
-                      width: 173,
+                      width: 173.w,
                       child: CTextField(
                           prefixIcon: const Icon(Icons.location_on_outlined),
                           height: 40.h,
