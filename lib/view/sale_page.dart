@@ -60,7 +60,7 @@ class _SalesPageState extends State<SalesPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     BoldText(text: "Year", size: 16.spMin, color: Colors.black),
-                    SizedBox(height: 3.h),
+                    3.verticalSpace,
                     SizedBox(
                       width: 147.h,
                       child: CTextField(height: 35.h, hintText: "Enter Year"),

@@ -77,7 +77,8 @@ class _LoginPageState extends State<LoginPage> {
                   MaterialPageRoute(builder: (context) => const HomeScreen()),
                 );
               },
-            ),45.verticalSpace,
+            ),
+            45.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
