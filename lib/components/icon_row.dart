@@ -10,7 +10,7 @@ class IconRow extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [Image.asset(image),
-      
+      14.horizontalSpace,
       Text(text)
       ],
     );
