@@ -171,7 +171,7 @@ class _SalesPageState extends State<SalesPage> {
                 )
               ],
             ),
-            SizedBox(height: 12.h),
+            
             BoldText(text: "Description", size: 16.spMin, color: Colors.black),
             Container(
               height: 75.h,
