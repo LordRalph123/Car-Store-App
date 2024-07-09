@@ -163,7 +163,7 @@ class _CarDetailsState extends State<CarDetails> {
                     MaterialPageRoute(
                         builder: (context) => const VideoScreen()),
                   );
-                })
+                }),
           ],
         ),
       ),
