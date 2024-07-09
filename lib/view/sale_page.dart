@@ -190,7 +190,7 @@ class _SalesPageState extends State<SalesPage> {
                 ),
               ),
             ),
-            
+            2.verticalSpace,
             Center(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
