@@ -190,7 +190,7 @@ class _SalesPageState extends State<SalesPage> {
                 ),
               ),
             ),
-            SizedBox(height: 2.h),
+            
             Center(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
