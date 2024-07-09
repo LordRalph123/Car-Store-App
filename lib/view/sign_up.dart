@@ -33,21 +33,21 @@ class _SignUpState extends State<SignUp> {
                 text: "C",
                 size: 38.spMin,
                 color: Color(0XFFF9FAFB),
-              )),
+              ),),
             ),
-            SizedBox(height: 67.h),
+           67.verticalSpace,
             BText(
               text: "Sign Up",
               size: 20.spMin,
               color: Color(0XFF040415),
             ),
-            SizedBox(height: 4.h),
+            4.verticalSpace,
             CText(
               text: "Find your dream car!",
               size: 14.spMin,
               color: Color(0XFF000000),
             ),
-            SizedBox(height: 19.h),
+            19.verticalSpace,
             const CustomTextField(
                 hintText: "Full name",
                 prefixIcon: Icons.person_outline_rounded),
@@ -56,7 +56,7 @@ class _SignUpState extends State<SignUp> {
               hintText: "Email address",
               prefixIcon: Icons.email_rounded,
             ),
-            SizedBox(height: 20.h),
+            20.verticalSpace,
             const CustomTextField(
                 hintText: "Phone number", prefixIcon: Icons.phone_outlined),
             SizedBox(height: 20.h),
@@ -72,7 +72,7 @@ class _SignUpState extends State<SignUp> {
                 );
               },
             ),
-            SizedBox(height: 10.h),
+            10.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -94,13 +94,13 @@ class _SignUpState extends State<SignUp> {
                 ),
               ],
             ),
-            SizedBox(height: 4.h),
+            4.verticalSpace,
             CText(
               text: "Sign Up with",
               size: 12.spMin,
               color: Color(0XFFFF5C00),
             ),
-            SizedBox(height: 1.h),
+            1.verticalSpace,
             Center(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -114,7 +114,7 @@ class _SignUpState extends State<SignUp> {
                 ],
               ),
             ),
-            SizedBox(height: 10.h),
+            10.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -124,7 +124,7 @@ class _SignUpState extends State<SignUp> {
                   size: 14.spMin,
                   color: Color(0XFF040415),
                 ),
-                SizedBox(width: 6.w),
+                6.horizontalSpace,
                 TextButton(
                   onPressed: () {
                     Navigator.pushReplacement(
