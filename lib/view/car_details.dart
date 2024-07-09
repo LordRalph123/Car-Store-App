@@ -58,7 +58,7 @@ class _CarDetailsState extends State<CarDetails> {
                 ),
               ),
             ),
-            SizedBox(height: 20.h),
+            20.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
