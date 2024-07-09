@@ -135,7 +135,7 @@ class _CarDetailsState extends State<CarDetails> {
                     IconRow(
                         image: "assets/icon/deal.png",
                         text: "Contractor Dealer"),
-                    SizedBox(height: 10.h),
+                    10.verticalSpace,
                     IconRow(
                         image: "assets/icon/location.png",
                         text: "Dehli, India"),
