@@ -102,7 +102,7 @@ class _SalesPageState extends State<SalesPage> {
             14.verticalSpace,
             BoldText(text: "Features", size: 16.spMin, color: Colors.black),
             CTextField(height: 40.h, hintText: "Search"),
-            const SizedBox(height: 5),
+            5.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
