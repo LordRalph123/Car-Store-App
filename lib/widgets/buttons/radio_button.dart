@@ -81,7 +81,8 @@ class _RButtonsState extends State<RButtons> {
               ),
             ),
             7.horizontalSpace,
-           BoldText(text: "Used", size: 14.spMin, color: Colors.black),
+           BoldText(text: "Used", size: 14.spMin,
+          color: Colors.black),
           ],
         ),
         
