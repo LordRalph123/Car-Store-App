@@ -52,9 +52,7 @@ class _RButtonsState extends State<RButtons> {
              BoldText(text: "New", size: 14.spMin, color: Colors.black),
           ],
         ),
-        SizedBox(
-          width: 48.w,
-        ),
+        48.horizontalSpace,
         Row(
           children: [
             InkWell(
