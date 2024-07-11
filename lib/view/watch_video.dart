@@ -99,7 +99,7 @@ class _VideoScreenState extends State<VideoScreen> {
                 ),
               ],
             ),
-            SizedBox(height: 31.h),
+            31.verticalSpace,
             CustomButton(
                 text: "Buy Now",
                 onPressed: () {
