@@ -67,7 +67,7 @@ class _VideoScreenState extends State<VideoScreen> {
                 ],
               ),
             ),
-            SizedBox(height: 20.h),
+            20.verticalSpace,
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
