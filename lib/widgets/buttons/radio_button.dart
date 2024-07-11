@@ -48,7 +48,7 @@ class _RButtonsState extends State<RButtons> {
                 ),
               ),
             ),
-            SizedBox(width: 7.w),
+           7.horizontalSpace,
              BoldText(text: "New", size: 14.spMin, color: Colors.black),
           ],
         ),

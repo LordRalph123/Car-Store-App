@@ -18,7 +18,7 @@ class DropDownTextfield extends StatelessWidget {
           borderRadius: BorderRadius.circular(10.r), color: const Color(0XFFEDEEEF),),
       child: Row(
         children: [
-          SizedBox(width: 7.w),
+          7.horizontalSpace,
           Expanded(
             child: TextField(
               decoration: InputDecoration(
