@@ -1,14 +1,10 @@
 // splash_screen.dart
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:young/view/HomeScreen.dart';
-import 'package:young/view/car_details.dart';
 import 'dart:async';
 
 import 'package:young/view/login.dart';
-import 'package:young/view/sale_page.dart';
-import 'package:young/view/sign_up.dart';
-import 'package:young/view/watch_video.dart';
+
 
 class SplashScreen extends StatefulWidget {
   @override
