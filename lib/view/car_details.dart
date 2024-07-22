@@ -52,7 +52,7 @@ class _CarDetailsState extends State<CarDetails> {
               height: 280.h,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.r),
-                image: DecorationImage(
+                image: const DecorationImage(
                   image: AssetImage("assets/images/pic_details.png"),
                   fit: BoxFit.cover,
                 ),
