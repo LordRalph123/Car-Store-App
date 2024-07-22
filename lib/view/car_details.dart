@@ -27,7 +27,7 @@ class _CarDetailsState extends State<CarDetails> {
           icon: Icon(
             Icons.arrow_back,
             size: 24.sp,
-            color: Color(0XFF849FFB),
+            color: Color(0XFF8E9FFB),
           ),
         ),
         actions: [
